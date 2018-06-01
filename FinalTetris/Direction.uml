@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>tetris.Direction</OriginalElement>
+  <nodes>
+    <node x="272.78316326530614" y="1248.0">tetris.Piece</node>
+    <node x="47.5" y="289.0">tetris.TetrisApp</node>
+    <node x="335.4857142857143" y="0.0">tetris.Direction</node>
+    <node x="80.2617346938776" y="873.0">tetris.Tetromino</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tetris.Piece" target="tetris.Tetromino">
+      <point x="-101.69999999999993" y="-115.0" />
+      <point x="284.0831632653062" y="1228.0" />
+      <point x="104.46173469387759" y="1228.0" />
+      <point x="-96.80000000000001" y="147.5" />
+    </edge>
+    <edge source="tetris.Tetromino" target="tetris.TetrisApp">
+      <point x="-34.57142857142867" y="-147.5" />
+      <point x="166.69030612244893" y="833.0" />
+      <point x="84.78571428571428" y="833.0" />
+      <point x="-223.71428571428572" y="257.0" />
+    </edge>
+    <edge source="tetris.Tetromino" target="tetris.Piece">
+      <point x="48.400000000000034" y="147.5" />
+      <point x="249.66173469387763" y="1198.0" />
+      <point x="351.88316326530617" y="1198.0" />
+      <point x="-33.89999999999998" y="-115.0" />
+    </edge>
+    <edge source="tetris.TetrisApp" target="tetris.Tetromino">
+      <point x="-149.14285714285717" y="257.0" />
+      <point x="159.35714285714283" y="823.0" />
+      <point x="201.26173469387754" y="823.0" />
+      <point x="-5.6843418860808015E-14" y="-147.5" />
+    </edge>
+    <edge source="tetris.Tetromino" target="tetris.Direction">
+      <point x="-69.14285714285728" y="-147.5" />
+      <point x="132.11887755102032" y="843.0" />
+      <point x="37.0" y="843.0" />
+      <point x="37.0" y="259.0" />
+      <point x="379.7357142857143" y="259.0" />
+      <point x="-44.25" y="114.5" />
+    </edge>
+    <edge source="tetris.TetrisApp" target="tetris.Direction">
+      <point x="0.0" y="-257.0" />
+      <point x="308.5" y="269.0" />
+      <point x="409.2357142857143" y="269.0" />
+      <point x="-14.75" y="114.5" />
+    </edge>
+    <edge source="tetris.Piece" target="tetris.Direction">
+      <point x="79.10000000000002" y="-115.0" />
+      <point x="464.88316326530617" y="1218.0" />
+      <point x="591.0" y="1218.0" />
+      <point x="591.0" y="259.0" />
+      <point x="468.2357142857143" y="259.0" />
+      <point x="44.25" y="114.5" />
+    </edge>
+    <edge source="tetris.TetrisApp" target="tetris.Piece">
+      <point x="223.71428571428567" y="257.0" />
+      <point x="532.2142857142857" y="853.0" />
+      <point x="417.17602040816325" y="853.0" />
+      <point x="417.17602040816325" y="1228.0" />
+      <point x="419.6831632653061" y="1228.0" />
+      <point x="33.89999999999998" y="-115.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="128.5" y="94.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
